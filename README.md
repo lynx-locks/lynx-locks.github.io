@@ -31,6 +31,8 @@ Format:
 - Created PDP (all)
 
 ## Week of October 16, 2023
+
+### Planning
 - Ordered NFC reader and wifi breakout board ([@adrianjendo](https://www.github.com/adrianjendo))
 - Created design for mobile app functionality ([@adrianjendo](https://www.github.com/adrianjendo))
 
