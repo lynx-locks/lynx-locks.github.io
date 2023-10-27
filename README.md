@@ -37,3 +37,9 @@ Format:
 - Created design for mobile app functionality ([@adrianjendo](https://www.github.com/adrianjendo))
 
 <img width="664" alt="Screenshot 2023-10-21 at 4 18 55 PM" src="https://github.com/lynx-locks/lynx-locks.github.io/assets/55325093/aefb0603-51a3-4aed-8024-9bdd4db59b35">
+
+## Week of October 23, 2023
+
+### Embedded
+- Set up embedded dev environment for ESP32 ([@cameronkinsella](https://github.com/cameronkinsella))
+- Generated template and flashed simple "Hello World" program ([@cameronkinsella](https://github.com/cameronkinsella) in [#1](https://github.com/lynx-locks/lynx-embedded/pull/1))
