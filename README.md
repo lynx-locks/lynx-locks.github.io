@@ -13,7 +13,7 @@ Format:
 ### Mobile
 - Did xyz (@person_a in #123, @person_b in #321)
 
-### Mechanical
+### Hardware
 - Did xyz (@person_a, @person_b)
 
 ### Planning
@@ -46,8 +46,7 @@ Format:
 
 ## Week of October 30, 2023
 
-### Mechanical
-- Team sync on mechanical design requirements (all) ([@docs](https://docs.google.com/document/d/11DhQZ5u9eMHmbRUGoNxIbcSStAmtDOCxnbRpptSurQA/edit)
-### Electrical
-- Team sync on electrical design requirements (all) ([@docs](https://docs.google.com/document/d/11DhQZ5u9eMHmbRUGoNxIbcSStAmtDOCxnbRpptSurQA/edit)
+### Hardware
+- Team sync on mechanical design requirements (all) ([@docs](https://docs.google.com/document/d/11DhQZ5u9eMHmbRUGoNxIbcSStAmtDOCxnbRpptSurQA/edit))
+- Team sync on electrical design requirements (all) ([@docs](https://docs.google.com/document/d/11DhQZ5u9eMHmbRUGoNxIbcSStAmtDOCxnbRpptSurQA/edit))
 - Begin sourcing motors and power supply ([@AllenZhang2989](https://github.com/AllenZhang2989))
