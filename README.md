@@ -46,7 +46,8 @@ Format:
 
 ## Week of October 30, 2023
 
+### Planning
+- Decision made to implement LED and sound features to provide user feedback when interacting with lock (all)
+
 ### Hardware
-- Team sync on mechanical design requirements (all) ([@docs](https://docs.google.com/document/d/11DhQZ5u9eMHmbRUGoNxIbcSStAmtDOCxnbRpptSurQA/edit))
-- Team sync on electrical design requirements (all) ([@docs](https://docs.google.com/document/d/11DhQZ5u9eMHmbRUGoNxIbcSStAmtDOCxnbRpptSurQA/edit))
 - Begin sourcing motors and power supply ([@AllenZhang2989](https://github.com/AllenZhang2989))
