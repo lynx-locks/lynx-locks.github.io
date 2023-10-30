@@ -43,3 +43,11 @@ Format:
 ### Embedded
 - Set up embedded dev environment for ESP32 ([@cameronkinsella](https://github.com/cameronkinsella))
 - Generated template and flashed simple "Hello World" program ([@cameronkinsella](https://github.com/cameronkinsella) in [#1](https://github.com/lynx-locks/lynx-embedded/pull/1))
+
+## Week of October 30, 2023
+
+### Mechanical
+- Team sync on mechanical design requirements (all) ([@docs](https://docs.google.com/document/d/11DhQZ5u9eMHmbRUGoNxIbcSStAmtDOCxnbRpptSurQA/edit)
+### Electrical
+- Team sync on electrical design requirements (all) ([@docs](https://docs.google.com/document/d/11DhQZ5u9eMHmbRUGoNxIbcSStAmtDOCxnbRpptSurQA/edit)
+- Begin sourcing motors and power supply ([@AllenZhang2989](https://github.com/AllenZhang2989))
