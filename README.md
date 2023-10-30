@@ -51,3 +51,6 @@ Format:
 
 ### Hardware
 - Begin sourcing motors and power supply ([@AllenZhang2989](https://github.com/AllenZhang2989))
+
+### Embedded
+- Obtained network connectivity ([@cameronkinsella](https://github.com/cameronkinsella))
