@@ -25,6 +25,8 @@ Format:
 ### Web
 - Created design log page ([@cameronkinsella](https://github.com/cameronkinsella))
 
+## Week of October 2, 2023
+
 ## Week of October 9, 2023
 
 ### Planning
@@ -56,3 +58,13 @@ Format:
 - Obtained network connectivity ([@cameronkinsella](https://github.com/cameronkinsella) in [#2](https://github.com/lynx-locks/lynx-embedded/pull/2))
 - Created HTTP Client module ([@cameronkinsella](https://github.com/cameronkinsella) in [#3](https://github.com/lynx-locks/lynx-embedded/pull/3))
 - Added documentation for setting up dev environment and flashing ([@cameronkinsella](https://github.com/cameronkinsella) in [#4](https://github.com/lynx-locks/lynx-embedded/pull/4))
+
+## Week of October 30, 2023
+
+## Week of November 6, 2023
+
+## Week of November 13, 2023
+
+## Week of November 20, 2023
+
+## Week of November 27, 2023
