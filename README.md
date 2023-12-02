@@ -28,6 +28,9 @@ Format:
   
 <img width="1039" alt="Screenshot 2023-12-02 at 3 47 07 PM" src="https://github.com/lynx-locks/lynx-locks.github.io/assets/55325093/72eee5ce-669f-4873-85b4-8478a127b344">
 
+### Hardware
+- Researched existing power systems for key Fob doors and formulated a conceptual electrical power system ([@ABarroso647](https://github.com/ABarroso647)), ([@cameronkinsella](https://github.com/cameronkinsella))
+  
 ## Week of October 2, 2023
 
 ### Planning
@@ -37,10 +40,12 @@ Format:
 <img width="646" alt="Screenshot 2023-12-02 at 3 45 58 PM" src="https://github.com/lynx-locks/lynx-locks.github.io/assets/55325093/5b386f77-428e-4da1-958f-2fbc313822a9">
 <img width="602" alt="Screenshot 2023-12-02 at 3 46 06 PM" src="https://github.com/lynx-locks/lynx-locks.github.io/assets/55325093/ae645f0a-e1a7-48bd-9392-dc55a2468d23">
 
-- Researched workflow for Windows login process (https://learn.microsoft.com/en-us/aspnet/web-api/overview/security/integrated-windows-authentication) ([@ABarroso647](https://github.com/ABarroso647))
 - Finalized problem statement ([@ABarroso647](https://github.com/ABarroso647))
 - Developed functions & goals ([@adrianjendo](https://www.github.com/adrianjendo)
 - Researched patents ([@jonahbelman](https://github.com/jonahbelman))
+
+### Web
+- Researched workflow for Windows login process (https://learn.microsoft.com/en-us/aspnet/web-api/overview/security/integrated-windows-authentication) ([@ABarroso647](https://github.com/ABarroso647)), ([@cameronkinsella](https://github.com/cameronkinsella)) 
 
 ## Week of October 9, 2023
 
@@ -50,10 +55,14 @@ Format:
 - Developed project timeline (all)
 - Created PDP (all)
 
+### Hardware
+- Researched and chose a suitable Microcontroller (ESP32-C3) and NFC Reader (PN532 breakout board) ([@cameronkinsella](https://github.com/cameronkinsella)),
+([@ABarroso647](https://github.com/ABarroso647)), ([@AllenZhang2989](https://github.com/AllenZhang2989)
+
 ## Week of October 16, 2023
 
 ### Planning
-- Ordered NFC reader and wifi breakout board ([@adrianjendo](https://www.github.com/adrianjendo))
+- Ordered NFC reader (PN532 breakout board) and Microcontroller (ESP32-C3) ([@adrianjendo](https://www.github.com/adrianjendo))
 
 ### Web
 -Finalized tech stack: (all)
@@ -79,7 +88,7 @@ Format:
 - Decision made to implement LED and sound features to provide user feedback when interacting with lock (all)
 
 ### Hardware
-- Begin sourcing motors and power supply ([@AllenZhang2989](https://github.com/AllenZhang2989))
+- Began sourcing motors and power supply ([@AllenZhang2989](https://github.com/AllenZhang2989))
 
 ### Embedded
 - Obtained network connectivity ([@cameronkinsella](https://github.com/cameronkinsella) in [#2](https://github.com/lynx-locks/lynx-embedded/pull/2))
@@ -126,5 +135,7 @@ Format:
 - 
 
 ## Week of November 27, 2023
-- Create Final Report
-- Finalize website
+
+### Planning
+- Create Final Report (all)
+- Finalize website ([@cameronkinsella](https://github.com/cameronkinsella, [@ABarroso647](https://github.com/ABarroso647), [@adrianjendo](https://www.github.com/adrianjendo))
