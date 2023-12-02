@@ -1,11 +1,6 @@
 # Things like company names, language keywords, and acronyms.
 visualstudio
-vercel
-weef
-roboto
-noreferrer
-uweng
+mechatronics
+FYDP
 dribbble
-AUV
-robo
-altium
+Roboto
