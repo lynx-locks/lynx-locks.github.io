@@ -3,7 +3,14 @@
   "version": "0.2",
   "language": "en",
   "allowCompoundWords": true,
-  "ignorePaths": [".husky", "node_modules", "cspell.json", "*.tsbuildinfo", "package-lock.json"],
+  "ignorePaths": [
+    ".husky",
+    "node_modules",
+    "cspell.json",
+    "*.tsbuildinfo",
+    "package-lock.json",
+    "./src/components/screens/designLog/designLog.mdx"
+  ],
   "dictionaries": ["names", "keywords", "misc"],
   "dictionaryDefinitions": [
     {
