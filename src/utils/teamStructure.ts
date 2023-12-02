@@ -61,7 +61,6 @@ export default [
         image: '/images/team/jonah-belman.png',
         socials: [linkedin('jonahbel/')],
       },
-
     ],
   },
 ] as Array<Team>;

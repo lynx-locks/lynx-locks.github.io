@@ -70,7 +70,7 @@ function Header() {
                 </Link>
               </Stack>
             </Grid>
-                <Image width={1100} height={700} src="/lynx_gif.gif" />
+            <Image width={1100} height={700} src="/lynx_gif.gif" />
           </Stack>
         </Container>
       </MKBox>
@@ -111,7 +111,7 @@ function Header() {
             display: 'flex',
             justifyContent: 'center',
           }}
-         />
+        />
       </Card>
     </>
   );
