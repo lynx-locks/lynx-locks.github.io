@@ -7,13 +7,9 @@ import MKBox from '../../common/MKBox';
 import TextLink from '../../common/TextLink';
 
 function Mission() {
-  const webauthnLink = (
-    <TextLink href="https://webauthn.guide/" text="WebAuthn" />
-  );
+  const webauthnLink = <TextLink href="https://webauthn.guide/" text="WebAuthn" />;
 
-  const capstoneLink = (
-      <TextLink href="https://uwaterloo.ca/capstone-design/" text="Mechatronics Capstone Design" />
-  );
+  const capstoneLink = <TextLink href="https://uwaterloo.ca/capstone-design/" text="Mechatronics Capstone Design" />;
 
   return (
     <MKBox component="section" pt={12}>
@@ -23,8 +19,8 @@ function Mission() {
             <MKTypography variant="h3">Our Mission</MKTypography>
             <br />
             <MKTypography variant="body1">
-              Our mission is to design and build a unified identity and access management system for building and
-              IT hardware access based on {webauthnLink}.
+              Our mission is to design and build a unified identity and access management system for building and IT
+              hardware access based on {webauthnLink}.
             </MKTypography>
             <br />
             <MKTypography variant="body1">

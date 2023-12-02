@@ -47,11 +47,12 @@ function CenteredFooter({ links }) {
 // Setting default values for the props of CenteredFooter
 const footerRoutes = {
   links: [
-      {
-          href: '/',
-          name: 'Home',
-      },
-      ...routes.links],
+    {
+      href: '/',
+      name: 'Home',
+    },
+    ...routes.links,
+  ],
 };
 CenteredFooter.defaultProps = footerRoutes;
 

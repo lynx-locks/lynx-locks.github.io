@@ -34,8 +34,8 @@ export default {
   } as SimplePaletteColorOptions,
 
   primary: {
-    main: '#1b7ca2',// '#b38459',
-    focus: '#29bdf7',// '#caaa84',
+    main: '#1b7ca2', // '#b38459',
+    focus: '#29bdf7', // '#caaa84',
   } as SimplePaletteColorOptions,
 
   secondary: {

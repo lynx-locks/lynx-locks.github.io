@@ -24,7 +24,10 @@ function Team() {
         width="100%"
         sx={{
           backgroundImage: ({ palette: { gradients } }) =>
-            `${linearGradient(rgba(gradients.primary.main, 0.05), rgba(gradients.primary.state, 0.15))}, url(${bgImage})`,
+            `${linearGradient(
+              rgba(gradients.primary.main, 0.05),
+              rgba(gradients.primary.state, 0.15),
+            )}, url(${bgImage})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           display: 'grid',

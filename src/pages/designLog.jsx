@@ -15,40 +15,40 @@ import MKTypography from '../components/common/MKTypography';
 import Sponsors from '../components/screens/sponsors/SponsorsList';
 import Mission from '../components/screens/home/Mission';
 import Vision from '../components/screens/home/Vision';
-import Design from '../components/screens/designLog/designLog.mdx'
+import Design from '../components/screens/designLog/designLog.mdx';
 // Images
 const bgImage = '/images/background/home.jpg';
 
-
 function DesignLog() {
-    return (
-        <>
+  return (
+    <>
+      <MKBox
+        display="flex"
+        alignItems="center"
+        justifyContent="center"
+        minHeight="15vh"
+        sx={{ pt: { xs: -10, sm: -5, md: 0 }, mb: 8 }}
+      />
+      <Card
+        sx={{
+          p: 2,
+          mx: { xs: 2, lg: 3 },
+          mt: { xs: -5, sm: -6, md: -8 },
+          mb: 8,
+          boxShadow: ({ boxShadows: { xxl } }) => xxl,
+        }}
+      >
         <MKBox
-            display="flex"
-            alignItems="center"
-            justifyContent="center"
-            minHeight="15vh"
-            sx={{ pt: { xs: -10, sm: -5, md: 0 }, mb:8 }} />
-        <Card
-            sx={{
-                p: 2,
-                mx: { xs: 2, lg: 3 },
-                mt: { xs: -5, sm: -6, md: -8 },
-                mb: 8,
-                boxShadow: ({ boxShadows: { xxl } }) => xxl,
-            }}
+          display="flex"
+          alignItems="center"
+          justifyContent="center"
+          sx={{ pt: { xs: -10, sm: -5, md: 0 }, mb: 8 }}
         >
-            <MKBox
-                display="flex"
-                alignItems="center"
-                justifyContent="center"
-                sx={{ pt: { xs: -10, sm: -5, md: 0 }, mb:8 }} >
-                 <Design/>
-            </MKBox>
-
-        </Card>
+          <Design />
+        </MKBox>
+      </Card>
     </>
-    );
+  );
 }
 
 export default DesignLog;
