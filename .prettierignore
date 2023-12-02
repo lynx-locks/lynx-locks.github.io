@@ -1,0 +1,8 @@
+node_modules/
+package*.json
+.husky/
+.next/
+
+# Ignore artifacts:
+build
+coverage

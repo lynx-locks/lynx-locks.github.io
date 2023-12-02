@@ -1,0 +1,11 @@
+# Things like company names, language keywords, and acronyms.
+visualstudio
+vercel
+weef
+roboto
+noreferrer
+uweng
+dribbble
+AUV
+robo
+altium

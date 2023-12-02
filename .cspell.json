@@ -1,0 +1,29 @@
+// cSpell Settings
+{
+  "version": "0.2",
+  "language": "en",
+  "allowCompoundWords": true,
+  "ignorePaths": [".husky", "node_modules", "cspell.json", "*.tsbuildinfo", "package-lock.json"],
+  "dictionaries": ["names", "keywords", "misc"],
+  "dictionaryDefinitions": [
+    {
+      "name": "names",
+      "path": "./.cspell/names.txt",
+      "addWords": true
+    },
+    {
+      "name": "keywords",
+      "path": "./.cspell/keywords.txt",
+      "addWords": true
+    },
+    {
+      "name": "misc",
+      "path": "./.cspell/misc.txt",
+      "addWords": true
+    }
+  ],
+  // flagWords - list of words to be always considered incorrect
+  // This is useful for offensive words and common spelling errors.
+  // For example "hte" should be "the"
+  "flagWords": ["hte"]
+}
