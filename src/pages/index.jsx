@@ -75,9 +75,7 @@ function Header() {
                 </Link>
               </Stack>
             </Grid>
-            {desktop &&
-              <Image width={1100} height={700} src="/lynx_gif.gif" />
-            }
+            {desktop && <Image width={1100} height={700} src="/lynx_gif.gif" />}
           </Stack>
         </Container>
       </MKBox>
