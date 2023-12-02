@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
 import Container from '@mui/material/Container';
 import Grid from '@mui/material/Grid';
@@ -19,8 +19,13 @@ import Mission from '../components/screens/home/Mission';
 const bgImage = '/images/background/home.jpg';
 
 function Header() {
+  const [desktop, setDesktop] = useState(false);
   const scrollToRef = (ref) => window.scrollTo({ top: ref.current.offsetTop - 32, behavior: 'smooth' });
   const cardRef = useRef();
+
+  useEffect(() => {
+    setDesktop(window.innerWidth > 1450);
+  }, []);
 
   return (
     <>
@@ -70,7 +75,9 @@ function Header() {
                 </Link>
               </Stack>
             </Grid>
-            <Image width={1100} height={700} src="/lynx_gif.gif" />
+            {desktop &&
+              <Image width={1100} height={700} src="/lynx_gif.gif" />
+            }
           </Stack>
         </Container>
       </MKBox>
