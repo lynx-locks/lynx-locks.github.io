@@ -1,0 +1,5 @@
+{
+  // files which are not included in tsconfig.json, but we still want to lint
+  "extends": "./tsconfig.json",
+  "include": ["*.js", "*.jsx"]
+}
