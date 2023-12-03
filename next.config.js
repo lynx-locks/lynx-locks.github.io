@@ -1,4 +1,5 @@
 /** @type {import('next').NextConfig} */
+const withPlugins = require('next-compose-plugins')
 
 const nextConfig = {
   reactStrictMode: true,
@@ -12,17 +13,17 @@ const withMDX = require('@next/mdx')({
     remarkPlugins: [],
     rehypePlugins: [],
     providerImportSource: '@mdx-js/react',
+    target: 'severless'
   },
 });
 
-module.exports = nextConfig;
-
-module.exports = withMDX({
-  pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'md', 'mdx'],
-});
-
-module.exports = {
+const withUnoptimizedImage = {
   images: {
-    unoptimized: true,
-  },
+    unoptimized: true
+  }
 }
+
+module.exports = withPlugins([withUnoptimizedImage,withMDX({
+  pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'md', 'mdx'],
+})],nextConfig)
+
