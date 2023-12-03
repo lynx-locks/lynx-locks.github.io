@@ -69,7 +69,17 @@ function Header() {
               </MKTypography>
               <Stack direction="row" spacing={1} mt={3}>
                 <Link href="/team" passHref>
-                  <MKButton variant="text" color="white">
+                  <MKButton
+                    variant="text"
+                    color="white"
+                    sx={{
+                      transition: 'all 0.2s ease-in-out',
+                      '&:hover': {
+                        cursor: 'pointer',
+                        color: ({ palette: { primary } }) => `${primary.focus}`,
+                      },
+                    }}
+                  >
                     Meet the Team
                   </MKButton>
                 </Link>
@@ -89,7 +99,7 @@ function Header() {
             transition: 'all 0.2s ease-in-out',
             '&:hover': {
               cursor: 'pointer',
-              color: ({ palette: { primary } }) => `${primary.main}`,
+              color: ({ palette: { primary } }) => `${primary.focus}`,
             },
           }}
         >

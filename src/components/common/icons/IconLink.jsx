@@ -23,7 +23,7 @@ function IconLink(props) {
           transition: 'all 0.2s ease-in-out',
           '&:hover': {
             cursor: 'pointer',
-            color: ({ palette: { primary } }) => `${primary.main}`,
+            color: ({ palette: { primary } }) => `${primary.focus}`,
           },
         }}
       >
