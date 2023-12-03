@@ -20,3 +20,10 @@ module.exports = nextConfig;
 module.exports = withMDX({
   pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'md', 'mdx'],
 });
+
+module.exports = {
+  images: {
+    loader: 'akamai',
+    path: '/',
+  },
+}
