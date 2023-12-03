@@ -23,7 +23,6 @@ module.exports = withMDX({
 
 module.exports = {
   images: {
-    loader: 'akamai',
-    path: '/',
+    unoptimized: true,
   },
 }
