@@ -19,6 +19,18 @@ pre {
   overflow-x: auto;
 }
 
+a {
+  color: white;
+}
+
+a:hover {
+  color: #29bdf7;
+}
+
+a:active {
+  color: pink
+}
+
 /*.link-highlight:hover {*/
 /*  cursor: pointer;*/
 /*  color: #b429f9;*/

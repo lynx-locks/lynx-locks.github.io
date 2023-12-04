@@ -39,7 +39,7 @@ export default [
       },
       {
         name: 'Adrian Jendo',
-        role: 'Fontend/Mobile Software',
+        role: 'Frontend/Mobile Software',
         image: '/images/team/adrian-jendo.jpg',
         socials: [linkedin('adrian-jendo'), github('AdrianJendo')],
       },
