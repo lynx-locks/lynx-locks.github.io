@@ -11,6 +11,7 @@
     "check:types": "tsc --project tsconfig.json",
     "check:spelling": "cspell --show-context --no-progress \"src/**/*\" \"**.md\"",
     "check:lint": "next lint",
+    "check:build": "next build && next export",
     "fix:format": "npm run prettier -- --write",
     "fix:lint": "npm run check:lint -- --fix",
     "validate": "run-script-os",
