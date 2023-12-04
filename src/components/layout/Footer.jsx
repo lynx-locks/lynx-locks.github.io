@@ -58,6 +58,7 @@ CenteredFooter.defaultProps = footerRoutes;
 
 // Typechecking props for the CenteredFooter
 CenteredFooter.propTypes = {
+  // eslint-disable-next-line react/forbid-prop-types
   links: PropTypes.arrayOf(PropTypes.object),
 };
 
