@@ -4,9 +4,9 @@ import Card from '@mui/material/Card';
 import MKBox from '../components/common/MKBox';
 
 // Sections
-import DesignLogMdx from '../components/screens/designLog/designLog.mdx';
+import BuildLogMdx from '../components/screens/buildLog/buildLog.mdx';
 
-function DesignLog() {
+function BuildLog() {
   return (
     <>
       <MKBox
@@ -31,11 +31,11 @@ function DesignLog() {
           justifyContent="center"
           sx={{ pt: { xs: -10, sm: -5, md: 0 }, mb: 8 }}
         >
-          <DesignLogMdx />
+          <BuildLogMdx />
         </MKBox>
       </Card>
     </>
   );
 }
 
-export default DesignLog;
+export default BuildLog;

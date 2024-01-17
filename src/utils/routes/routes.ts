@@ -11,7 +11,13 @@ const routes = {
       href: '/designLog',
       name: 'Design Log',
     },
+    {
+      href: '/buildLog',
+      name: 'Build Log',
+    },
   ],
+
+
 };
 
 export default routes;
