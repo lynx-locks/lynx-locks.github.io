@@ -16,8 +16,6 @@ const routes = {
       name: 'Build Log',
     },
   ],
-
-
 };
 
 export default routes;
