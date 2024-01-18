@@ -2,7 +2,7 @@ import React from 'react';
 import Card from '@mui/material/Card';
 
 import MKBox from '../components/common/MKBox';
-import Image from "../components/common/Image";
+import Image from '../components/common/Image';
 
 // Sections
 import DesignLogMdx from '../components/screens/designLog/designLog.mdx';
@@ -32,7 +32,7 @@ function DesignLog() {
           justifyContent="center"
           sx={{ pt: { xs: -10, sm: -5, md: 0 }, mb: 8 }}
         >
-          <DesignLogMdx components={{Image}} />
+          <DesignLogMdx components={{ Image }} />
         </MKBox>
       </Card>
     </>

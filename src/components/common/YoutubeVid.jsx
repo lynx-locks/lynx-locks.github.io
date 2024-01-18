@@ -1,9 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function YouTube ({ id }) {
+function YouTube({ id }) {
   return (
-    <div style={{display: "flex", justifyContent: "center"}}>
+    <div style={{ display: 'flex', justifyContent: 'center' }}>
       <iframe
         width="420"
         height="315"
@@ -14,10 +14,10 @@ function YouTube ({ id }) {
       />
     </div>
   );
-};
+}
 
 YouTube.propTypes = {
-  id: PropTypes.string.isRequired
-}
+  id: PropTypes.string.isRequired,
+};
 
 export default YouTube;
