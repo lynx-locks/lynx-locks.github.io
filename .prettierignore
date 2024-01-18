@@ -9,3 +9,4 @@ coverage
 out
 
 src/components/screens/designLog/designLog.mdx
+src/components/screens/buildLog/buildLog.mdx
