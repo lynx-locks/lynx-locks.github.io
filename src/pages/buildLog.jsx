@@ -4,6 +4,7 @@ import Card from '@mui/material/Card';
 import MKBox from '../components/common/MKBox';
 import YouTubeVid from '../components/common/YoutubeVid';
 import LocalVid from '../components/common/LocalVid';
+import Image from '../components/common/Image';
 
 // Sections
 import BuildLogMdx from '../components/screens/buildLog/buildLog.mdx';
@@ -33,7 +34,7 @@ function BuildLog() {
           justifyContent="center"
           sx={{ pt: { xs: -10, sm: -5, md: 0 }, mb: 8 }}
         >
-          <BuildLogMdx components={{ YouTubeVid, LocalVid }} />
+          <BuildLogMdx components={{ YouTubeVid, LocalVid, Image }} />
         </MKBox>
       </Card>
     </>
