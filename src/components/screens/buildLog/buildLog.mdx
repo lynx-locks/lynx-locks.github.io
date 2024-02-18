@@ -70,11 +70,16 @@
 - Add build log ([@AdrianJendo](https://github.com/AdrianJendo) in [#4](https://github.com/lynx-locks/lynx-locks.github.io/pull/4))
 - Initial frontend app setup ([@AdrianJendo](https://github.com/AdrianJendo) in [#2](https://github.com/lynx-locks/lynx-web/pull/2))
 
+### Embedded
+
+- Experimented with I2C protocol for PN532.
+- Discovered the PN532 breakout board is unresponsive with both primary communication protocols.
+
 ## Week of January 22, 2024
 
 ### Hardware
 
-- Continued manufacturing and procurement of parts([@AllenZhang2989](https://github.com/AllenZhang2989))
+- Continued manufacturing and procurement of parts ([@AllenZhang2989](https://github.com/AllenZhang2989))
 
 <Images width="420" srcs={["water-jet.jpg", "water-jet-outside.jpg"]} />
 
@@ -88,6 +93,11 @@
 <Image width="1024" src="lynx-table.png"/>
 
 <LocalVid id="modal_demo.mov" />
+
+### Embedded
+
+- Went to MME clinic with Allen to analyze I2C signals. Discovered that the ESP32 is sending signals but PN532 is unresponsive.
+- Tested I2C protocol with a different sensor to confirm that microcontroller is working properly and PN532 is broken.
 
 ## Week of January 29, 2024
 
@@ -110,6 +120,12 @@
 
 - Add in backend workflow and basic db setup, including API documentation setup ([@ABarroso647](https://github.com/ABarroso647) in [#6](https://github.com/lynx-locks/lynx-web/pull/6))
 - Add in local docker backend functionality ([@ABarroso647](https://github.com/ABarroso647) in [#6](https://github.com/lynx-locks/lynx-web/pull/6))
+
+### Embedded
+
+- Aquired new PN532 breakout board.
+- Tested I2C protocol on PN532 and received error responses.
+- Discovered limitations with ESP32's I2C frame buffer size, causing errors with PN532.
 
 ## Week of February 5, 2024
 
@@ -134,8 +150,17 @@
 <Image width="1024" src="auth-flow-b.png" />
 <Image width="1024" src="auth-flow-c.png" />
 
+### Embedded
+
+- Successfully read/write tags from new PN532 board in SPI mode.
+- Tested NFC emulation mode.
 
 ## Week of February 12, 2024
+
+### Embedded
+
+- Implemented logic for YubiKey challenge/response on embedded system.
+- Successfully stored private key in persistent flash storage.
 
 ## Week of February 19, 2024
 
