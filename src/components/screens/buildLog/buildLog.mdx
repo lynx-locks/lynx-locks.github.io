@@ -72,8 +72,8 @@
 
 ### Embedded
 
-- Experimented with I2C protocol for PN532.
-- Discovered the PN532 breakout board is unresponsive with both primary communication protocols.
+- Experimented with I2C protocol for PN532 ([@CameronKinsella](https://github.com/cameronkinsella))
+- Discovered the PN532 breakout board is unresponsive with both primary communication protocols ([@CameronKinsella](https://github.com/cameronkinsella))
 
 ## Week of January 22, 2024
 
@@ -84,7 +84,7 @@
 <Images width="420" srcs={["water-jet.jpg", "water-jet-outside.jpg"]} />
 
 - Manufacruring housing components and machining procured hardware ([@jonahbelman](https://github.com/jonahbelman))
-- Conducting root cause analysis on NFC breakoutboard ([@AllenZhang2989](https://github.com/AllenZhang2989)) ([@CameronKinsella](https://github.com/cameronkinsella))
+- Conducting root cause analysis on NFC breakoutboard ([@AllenZhang2989](https://github.com/AllenZhang2989), [@CameronKinsella](https://github.com/cameronkinsella))
 
 ### Software
 
@@ -96,17 +96,17 @@
 
 ### Embedded
 
-- Went to MME clinic with Allen to analyze I2C signals. Discovered that the ESP32 is sending signals but PN532 is unresponsive.
-- Tested I2C protocol with a different sensor to confirm that microcontroller is working properly and PN532 is broken.
+- Went to MME clinic to analyze I2C signals. Discovered that the ESP32 is sending signals but PN532 is unresponsive ([@AllenZhang2989](https://github.com/AllenZhang2989), [@CameronKinsella](https://github.com/cameronkinsella))
+- Tested I2C protocol with a different sensor to confirm that microcontroller is working properly and PN532 is broken ([@CameronKinsella](https://github.com/cameronkinsella))
 
 ## Week of January 29, 2024
 
 ### Hardware
 
-- Began testing of unlocking mechanisms([@AllenZhang2989](https://github.com/AllenZhang2989))
+- Began testing of unlocking mechanisms ([@AllenZhang2989](https://github.com/AllenZhang2989))
 - Modifying and redesigning unlocking mechanisms to improve functionality([@AllenZhang2989](https://github.com/AllenZhang2989))
 - Machined OTs components to suit prototype design ([@jonahbelman](https://github.com/jonahbelman))
-- Manyfacturing second itsrations of enclosure components([@jonahbelman](https://github.com/jonahbelman))
+- Manyfacturing second itsrations of enclosure components ([@jonahbelman](https://github.com/jonahbelman))
 
 ### Software
 
@@ -123,9 +123,11 @@
 
 ### Embedded
 
-- Aquired new PN532 breakout board.
-- Tested I2C protocol on PN532 and received error responses.
-- Discovered limitations with ESP32's I2C frame buffer size, causing errors with PN532.
+- Aquired new PN532 breakout board ([@CameronKinsella](https://github.com/cameronkinsella))
+- Tested I2C protocol on PN532 and received error responses ([@CameronKinsella](https://github.com/cameronkinsella))
+- Discovered limitations with ESP32's I2C frame buffer size, causing errors with PN532 ([@CameronKinsella](https://github.com/cameronkinsella))
+
+<Image width="512" src="pn532-new-board.jpg" />
 
 ## Week of February 5, 2024
 
@@ -142,7 +144,7 @@
 
 <LocalVid id="dark_mode_demo.mov" />
 
-- Implement frontend build instructions in dockerfile ([@AdrianJendo](https://github.com/AdrianJendo) in [#10](https://github.com/lynx-locks/lynx-web/pull/10))
+- Implement frontend build instructions in dockerfile ([@AdrianJendo](https://github.com/AdrianJendo) and [@CameronKinsella](https://github.com/cameronkinsella) in [#10](https://github.com/lynx-locks/lynx-web/pull/10))
 - Start android app development ([@AdrianJendo](https://github.com/AdrianJendo))
 - Create user registration / authentication workflow designs:
 
@@ -152,15 +154,15 @@
 
 ### Embedded
 
-- Successfully read/write tags from new PN532 board in SPI mode.
-- Tested NFC emulation mode.
+- Successfully read/write tags from new PN532 board in SPI mode ([@CameronKinsella](https://github.com/cameronkinsella))
+- Tested NFC emulation mode ([@CameronKinsella](https://github.com/cameronkinsella))
 
 ## Week of February 12, 2024
 
 ### Embedded
 
-- Implemented logic for YubiKey challenge/response on embedded system.
-- Successfully stored private key in persistent flash storage.
+- Implemented logic for YubiKey challenge/response on embedded system ([@CameronKinsella](https://github.com/cameronkinsella))
+- Successfully stored private key in persistent flash storage ([@CameronKinsella](https://github.com/cameronkinsella))
 
 ## Week of February 19, 2024
 
