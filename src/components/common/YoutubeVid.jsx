@@ -5,8 +5,8 @@ function YouTube({ id }) {
   return (
     <div style={{ display: 'flex', justifyContent: 'center' }}>
       <iframe
-        width="420"
-        height="315"
+        width="1024"
+        height="650"
         className="aspect-video w-full"
         src={`https://www.youtube.com/embed/${id}`}
         title="YouTube Video Player"
