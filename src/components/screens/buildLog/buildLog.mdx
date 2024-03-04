@@ -152,6 +152,7 @@
 <Image width="1024" src="auth-flow-b.png" />
 <Image width="1024" src="auth-flow-c.png" />
 
+- Add in user initial user route functionality as well as api documentation ([@ABarroso647](https://github.com/ABarroso647) in [#12](https://github.com/lynx-locks/lynx-web/pull/12))
 ### Embedded
 
 - Successfully read/write tags from new PN532 board in SPI mode ([@CameronKinsella](https://github.com/cameronkinsella))
@@ -163,6 +164,10 @@
 
 - Implemented logic for YubiKey challenge/response on embedded system ([@CameronKinsella](https://github.com/cameronkinsella))
 - Successfully stored private key in persistent flash storage ([@CameronKinsella](https://github.com/cameronkinsella))
+
+### Software 
+
+- Fixup bugs with user routing and update naming schemes ([@ABarroso647](https://github.com/ABarroso647) in [#17](https://github.com/lynx-locks/lynx-web/pull/17) and [#18](https://github.com/lynx-locks/lynx-web/pull/18/files))
 
 ## Week of February 19, 2024
 
@@ -176,6 +181,8 @@
 <YoutubeVid id="T5L-U5F-d1s" />
 
 - Implemented remaining backend tables ([@AdrianJendo](https://github.com/adrianjendo) in [#19](https://github.com/lynx-locks/lynx-web/pull/19))
+
+- Re-rewrote backend such that calls can be done with generic functions which could apply to any table type ([@ABarroso647](https://github.com/ABarroso647) in [#22](https://github.com/lynx-locks/lynx-web/pull/22))
 
 ### Embedded
 
@@ -199,6 +206,10 @@
 - Updated table design and state to begin utilizing real data ([@AdrianJendo](https://github.com/adrianjendo) in [#29](https://github.com/lynx-locks/lynx-web/pull/29))
 
 <LocalVid id="frontend_table_updates.mov" />
+
+- Add in functionality for role and door tables and their associations ([@ABarroso647](https://github.com/ABarroso647) in [#25](https://github.com/lynx-locks/lynx-web/pull/25))
+
+- Add in base functionality for user patch requests
 
 ### Embedded
 
