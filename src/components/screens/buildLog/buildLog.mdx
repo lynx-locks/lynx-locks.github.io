@@ -184,6 +184,8 @@
 
 - Re-rewrote backend such that calls can be done with generic functions which could apply to any table type ([@ABarroso647](https://github.com/ABarroso647) in [#22](https://github.com/lynx-locks/lynx-web/pull/22))
 
+- Added GitHub Actions for PR continuous integration status checks ([@CameronKinsella](https://github.com/cameronkinsella) in [#20](https://github.com/lynx-locks/lynx-web/pull/20))
+
 ### Embedded
 
 - Identified that selected PN532 breakout board is not powerful enough to read YubiKey ([@CameronKinsella](https://github.com/cameronkinsella))
@@ -211,6 +213,8 @@
 
 - Add in base functionality for user patch requests
 
+- Implemented automatic TLS for production ([@CameronKinsella](https://github.com/cameronkinsella) in [#27](https://github.com/lynx-locks/lynx-web/pull/27))
+
 ### Embedded
 
 - Successfully authenticated with challenge-response via NFC with YubiKey ([@CameronKinsella](https://github.com/cameronkinsella))
@@ -228,7 +232,8 @@
 
 <LocalVid id="yubikey_auth_demo.mov" />
 
-- Validated detecting successful WebAuthn flow with passkey ([@CameronKinsella](https://github.com/cameronkinsella) and [@ABarroso647](https://github.com/ABarroso647) in [#38](https://github.com/lynx-locks/lynx-web/pull/38))
+- Validated detecting successful WebAuthn flow with passkey ([@ABarroso647](https://github.com/ABarroso647) in [#38](https://github.com/lynx-locks/lynx-web/pull/38))
+- Created example for YubiKey and passkey authentication demo ([@CameronKinsella](https://github.com/cameronkinsella) in [#8](https://github.com/lynx-locks/lynx-embedded/pull/8))
 
 <LocalVid id="passkey_auth_demo.mp4" />
 
@@ -239,10 +244,10 @@
 - Add script for populating DB with data for testing ([@AdrianJendo](https://github.com/adrianjendo) & [@ABarroso647](https://github.com/ABarroso647) in [#33](https://github.com/lynx-locks/lynx-web/pull/33))
 - Update authorization flow to authenticate users without requiring id sent ([@AdrianJendo](https://github.com/adrianjendo) in [#34](https://github.com/lynx-locks/lynx-web/pull/34))
 - Implement YubiKey registration logic ([@AdrianJendo](https://github.com/adrianjendo) in [#35](https://github.com/lynx-locks/lynx-web/pull/35))
--Updated associations to be user-> roles ([@ABarroso647](https://github.com/ABarroso647) in [#38](https://github.com/lynx-locks/lynx-web/pull/38))
--Fixex delete propagation for associations ([@ABarroso647](https://github.com/ABarroso647) in [#38](https://github.com/lynx-locks/lynx-web/pull/38))
--Added in/update full workflow to check if user has access to a door and then unlock it if so ([@ABarroso647](https://github.com/ABarroso647) in [#38](https://github.com/lynx-locks/lynx-web/pull/38))
--Added ability to get all keys from a user ([@ABarroso647](https://github.com/ABarroso647) in [#38](https://github.com/lynx-locks/lynx-web/pull/38))
+- Updated associations to be user-> roles ([@ABarroso647](https://github.com/ABarroso647) in [#38](https://github.com/lynx-locks/lynx-web/pull/38))
+- Fixex delete propagation for associations ([@ABarroso647](https://github.com/ABarroso647) in [#38](https://github.com/lynx-locks/lynx-web/pull/38))
+- Added in/update full workflow to check if user has access to a door and then unlock it if so ([@ABarroso647](https://github.com/ABarroso647) in [#38](https://github.com/lynx-locks/lynx-web/pull/38))
+- Added ability to get all keys from a user ([@ABarroso647](https://github.com/ABarroso647) in [#38](https://github.com/lynx-locks/lynx-web/pull/38))
 
 ### ALL 
 
@@ -253,11 +258,14 @@
 
 ### Hardware
 
-- Began working with Embedded team for system integration ([@AllenZhang2989](https://github.com/AllenZhang2989))
+- Began working with Embedded team for system integration ([@AllenZhang2989](https://github.com/AllenZhang2989) and [@CameronKinsella](https://github.com/cameronkinsella))
 - Adding LED to system and working on system aesthetic ([@AllenZhang2989](https://github.com/AllenZhang2989))
 
 ### Software
 
+- Implemented route authentication protection with JWT tokens ([@CameronKinsella](https://github.com/cameronkinsella) in [#44](https://github.com/lynx-locks/lynx-web/pull/44) and [#62](https://github.com/lynx-locks/lynx-web/pull/62))
+- Created flow for registering initial system admin on first startup ([@CameronKinsella](https://github.com/cameronkinsella) in [#61](https://github.com/lynx-locks/lynx-web/pull/61))
+- Added redirects to improve user experience for routing ([@CameronKinsella](https://github.com/cameronkinsella) in [#55](https://github.com/lynx-locks/lynx-web/pull/55), [#67](https://github.com/lynx-locks/lynx-web/pull/67), and [#69](https://github.com/lynx-locks/lynx-web/pull/69))
 - Implemented backend connection for user management buttons ([@AdrianJendo](https://github.com/adrianjendo) in [#36](https://github.com/lynx-locks/lynx-web/pull/36))
 - Implemented backend connection for user settings modal ([@AdrianJendo](https://github.com/adrianjendo) in [#37](https://github.com/lynx-locks/lynx-web/pull/37))
 - Added FE authentication support ([@AdrianJendo](https://github.com/adrianjendo) in [#40](https://github.com/lynx-locks/lynx-web/pull/40))
@@ -273,6 +281,11 @@
 - Added success/error pages ([@AdrianJendo](https://github.com/adrianjendo) in [#56](https://github.com/lynx-locks/lynx-web/pull/56))
 
 <Images width="512" srcs={["success-page.png", "error-page.png"]} />
+
+### Embedded
+
+- Fixed unreliability when writing encrypted secret to non-volatile storage.
+- Added support for addressable LED to indicate authentication status ([@CameronKinsella](https://github.com/cameronkinsella) in [#9](https://github.com/lynx-locks/lynx-embedded/pull/9))
 
 ## Week of March 18, 2024
 
